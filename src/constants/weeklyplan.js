@@ -1,0 +1,2 @@
+export const PIECE_NUMBER_STORE = 'PIECE_NUMBER_STORE'
+export const PIECE_CODE = 'PIECE_CODE'

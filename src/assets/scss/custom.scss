@@ -1,0 +1,77 @@
+/* Element UI */
+/* 改变主题色变量 */
+$--color-primary: #00c587;
+
+$--color-success: #67c23a;
+
+$--color-warning: #E6A23C;
+
+$--color-danger: #f56c6c;
+
+$--color-info: #909399;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+%text-right {
+  text-align: right;
+}
+
+.text-right {
+  @extend %text-right;
+  line-height: 28px;
+}
+.text-center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}
+.margin-right-16 {
+  margin-right: 16px;
+}
+.margin-left-16 {
+  margin-left: 16px;
+}
+.margin-right-80 {
+  margin-right: 80px;
+}
+
+.color-primary {
+  color: $--color-primary;
+}
+.color-danger {
+  color: $--color-danger;
+}
+
+.bg-primary {
+  background-color: $--color-primary;
+}
+
+%active-primary {
+  color: $--color-primary;
+  background-color: mix(#fff, $--color-primary, 90%);
+}
+
+.custom-form-item.is-success .el-input__inner,
+.custom-form-item.is-success .el-input__inner:focus,
+.custom-form-item.is-success .el-textarea__inner,
+.custom-form-item.is-success .el-textarea__inner:focus {
+    border-color: $--color-success;
+}
+
+.custom-form-item.is-error .el-input__inner,
+.custom-form-item.is-error .el-input__inner:focus,
+.custom-form-item.is-error .el-textarea__inner,
+.custom-form-item.is-error .el-textarea__inner:focus {
+    border-color: $--color-danger;
+}

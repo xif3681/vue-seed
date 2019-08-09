@@ -1,0 +1,16 @@
+
+@import "./custom";
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.el-table th,
+.el-table td {
+  text-align: center;
+}
+
+.el-upload {
+  width: 100%;
+}
+.el-upload-dragger {
+  width: 100%;
+}
